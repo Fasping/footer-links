@@ -19,6 +19,8 @@ const StyledFooter = styled.footer`
   margin: 0 auto;
 `;
 
+const url = 'https://www.youtube.com';
+
 const Footer = () => {
   return (
     <StyledFooter>
@@ -30,6 +32,9 @@ const Footer = () => {
       </StyledLink>
       <StyledLink to="/politica-de-privacidad" title="App Privacy Policy">
         App Privacy Policy
+      </StyledLink>
+      <StyledLink onClick={() => window.open(url, "_blank")} title="Youtube">
+        Youtube
       </StyledLink>
     </StyledFooter>
   );
