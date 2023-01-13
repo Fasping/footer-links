@@ -30,7 +30,9 @@ This project is licensed under the [MIT](https://choosealicense.com/licenses/mit
 - **React-router-dom:** A package that provides routing functionality for React applications.
 ## 🏃🏻‍♂️ To run the project use the following command:
 
-Clone the project
+
+
+Fork this repo, give ⭐️ then Clone the project
 
 ```bash
   git clone https://link-to-project
